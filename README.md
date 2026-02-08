@@ -3,6 +3,22 @@
 ## 📌 Project Overview
 An end-to-end data analytics pipeline tracking customer shopping behavior from raw data to business intelligence. This project utilizes **Python** for engineering, **PostgreSQL** for analysis, and **Power BI** for visualization.
 
+## 📖 Data Dictionary
+To ensure clarity during analysis, here is a breakdown of the key attributes in the dataset:
+
+| Column Name | Description |
+| :--- | :--- |
+| **Customer_ID** | Unique identifier for each customer. |
+| **Age / Gender** | Demographic information of the shopper. |
+| **Item_Purchased** | The specific product bought during the transaction. |
+| **Category** | The broad classification of the product (Clothing, Footwear, etc.). |
+| **Purchase_Amount_USD** | The total value of the transaction in US Dollars. |
+| **Location** | The geographic location of the purchase. |
+| **Review_Rating** | The customer's satisfaction score (1.0 - 5.0). |
+| **Subscription_Status** | Indicates if the customer is a premium member ('Yes'/'No'). |
+| **Previous_Purchases** | Total number of prior transactions by the customer. |
+| **Payment_Method** | The method used (Credit Card, Cash, PayPal, etc.). |
+
 ## 🛠 Tech Stack
 - **Data Engineering:** Python (Pandas, NumPy)
 - **Database:** PostgreSQL
